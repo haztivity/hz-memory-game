@@ -1,0 +1,23 @@
+div
+    -
+        var widget= {
+            data: [
+                {
+                    id: "card 1",
+                    front: "Card 1"
+                },
+                {
+                    id: "card 2",
+                    front: {
+                        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Android_P_logo.svg/768px-Android_P_logo.svg.png",
+                        alt: "Android Operating System Logo"
+                    }
+                },
+                {
+                    id: "card 3",
+                    front: "Card 3"
+                }
+            ]
+        }
+    div(data-hz-resource="HzMemoryGame", data-opt-hz-memory-game-widget-auto-complete = true, data-opt-hz-memory-game-widget = widget)
+
